@@ -9885,3 +9885,42 @@ a {
       .site-footer .social li a:hover {
         background: #000;
         color: #fff; }
+
+        .wp-ab1 a{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          position: fixed;
+          bottom: 10px;
+          right: 10px;
+          height: 55px;
+          width: 55px;
+          font-size: 44px;
+          text-decoration: none;
+          z-index: 999;
+          overflow: hidden;
+          border-radius: 50%;
+          color: #fff;
+          background: #fff;
+          border: 1px solid #55555650;
+          animation: idle2 2.3s ease infinite; 
+        }
+        .wp-ab2 a{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          position: fixed;
+          bottom: 75px;
+          right: 10px;
+          height: 55px;
+          width: 55px;
+          font-size: 44px;
+          text-decoration: none;
+          z-index: 999;
+          background: #fff;
+          border-radius: 50%;
+          overflow: hidden;
+          color: #fff;
+          border: 1px solid #55555650;
+        }
+                
